@@ -1,0 +1,240 @@
+body {
+    background-image: url('background.png'); 
+    background-size: cover; 
+}
+.logo img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 5px;
+} 
+/* css for index.html */
+.index-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    color: white;
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.navigation a {
+    text-decoration: none;
+}
+.navigation img {
+    margin-top: 20px;
+    max-width: 50%;
+    height: auto;
+}
+.index-heading1{
+    color: #8D5D39; /* Brown color */
+    font-size: 32px; /* Adjust the font size as needed */
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+.index-heading2{
+    color: #8D5D39; /* Brown color */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-top: 0px;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+/*css for culture and concept pages */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Style individual images */
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    margin: 5px; /* Add space between images */
+}
+.image-container span {
+    display: inline-block;
+    margin: 5px; 
+}
+
+
+/* Style each row */
+.top-row, .middle-row, .bottom-row {
+    display: flex;
+    justify-content: space-between; /* Distribute images evenly with space in between */
+    align-items: center;
+  
+}
+
+/* Style the text container */
+.text-container {
+    max-width: 50%; /* Adjust the maximum width for the text */
+}
+
+/* Style the text within the text container */
+.text-container p {
+    word-wrap: break-word; /* Allow long words to break and wrap onto the next line */
+    text-align: center;
+    color: #8D5D39;
+    font-size: 1rem;
+}
+
+.text-container p strong {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+.video-info {
+    flex: 1;
+    padding-right: 100px; /* Add some spacing between main video and recommended videos */
+}
+
+.video-title {
+    color: #8D5D39;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.video-player {
+    width: 100%; /* Main video takes full width */
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+}
+
+.video-player iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.recommended-videos {
+    flex-basis: 30%; /* Recommended videos take 30% of available space */
+}
+
+.recommended-title {
+    margin-top: 30px;
+    color: #8D5D39;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.recommended-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+.recommended-video-thumbnail {
+    max-width: 50%; /* Adjust the width as needed */
+    max-height: auto; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+/* Display video title next to the thumbnail */
+.recommended-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style video title */
+.recommended-video-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8D5D39; /* Brown color */
+    font-weight: bold; /* Make the title bold */
+    font-size: 16px; /* Adjust the font size as needed */
+    flex: 1; /* Allow the title to take up available space */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Display titles as blocks */
+    margin-bottom: 5px; /* Add some space between the title and thumbnail */
+}
+
+/* Style for the speech box */
+
+/* Style for the speech box */
+
+/* Center the content vertically and horizontally */
+
+/* Style for the container */
+.credits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+/* Style for the heading */
+
+
+/* Style for the slideshow container */
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Add space between the heading and the slideshow */
+}
+
+/* Add CSS styles to control the image size */
+#slideshowImage {
+    width: 30%; /* Adjust the maximum width as needed */
+    height: auto; /* Adjust the maximum height as needed */
+}
+
+/* Style for the button */
+button {
+    margin-top: 10px;
+    background-color: #8D5D39; /* Brown color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* Style for the text container */
+.credits-text-container {
+    color: #8D5D39;
+    text-align: center;
+    margin: 20px 0; /* Add space above and below the text */
+    font-size: 24px;
+    position: relative;
+    top: 66%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%); /* Center the text vertically */
+
+}
+
+
+/* .content {
+    margin-bottom: 20px;
+}
+ */
+/* .top-images, .bottom-images {
+    display: flex;
+    gap: 20px;
+}
+.top-images img, .bottom-images img {
+    max-width: 100%;
+} */
+
